@@ -18,3 +18,6 @@ function blurring() {
   bg.style.filter = (`blur(${30-(30*load/100)}px)`)
 }
 
+function reload(){
+    location.reload();
+}
